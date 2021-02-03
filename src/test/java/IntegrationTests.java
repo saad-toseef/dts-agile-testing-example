@@ -33,6 +33,7 @@ public class IntegrationTests {
     }
 
     
+    // Adding a Unit test to re-produce the issue
     @Test
     public void WhenRemoveItemThenTotalIsUpdated() {
         Basket basket = new Basket();
